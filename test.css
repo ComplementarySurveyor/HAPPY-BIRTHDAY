@@ -1,0 +1,77 @@
+/* CSS legitimately hurts my brain. I need a cheatsheat for this shit */
+
+@font-face {
+  font-family: "LEMONMILK";
+  src: url("LEMONMILK-Bold.woff");
+}
+
+@font-face {
+  font-family: "Fredoka-One";
+  src: url("FredokaOne-Regular.otf");
+}
+
+body {
+    text-align: center;
+    font-family: "LEMONMILK";
+    font-size: 9vw;
+    vertical-align: middle;
+    padding-top: 10vh;
+    background-size : 100% auto;
+    /* The image used */
+    background-color:rgb(37, 37, 37);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgba(255, 255, 255, 1);
+    height: 100%;
+    margin: 0;
+
+    animation-name: moveVertical;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+#instructions{
+    font-size: 1.5vw;
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.letter{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.letter:hover{
+    transform: scale(1.2);
+}
+
+#animText{
+    display: inline-block;
+    font-size: 4vw;
+    vertical-align: center;
+    text-align: center;
+}
+
+@keyframes moveVertical {
+    0% {
+      background-position: 0% 0%;
+    }
+    45% {
+      background-position: 100% 100%;
+    }
+    55% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+}
+
