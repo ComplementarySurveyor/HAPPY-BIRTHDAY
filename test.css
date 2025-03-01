@@ -13,7 +13,7 @@
 body {
     text-align: center;
     font-family: "LEMONMILK";
-    font-size: 9vw;
+    font-size: 8vw;
     vertical-align: middle;
     padding-top: 10vh;
     background-size : 100% auto;
@@ -40,7 +40,7 @@ body {
 }
 
 #instructions{
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     color:rgba(255, 255, 255, 0.8);
 }
 
@@ -55,7 +55,7 @@ body {
 
 #animText{
     display: inline-block;
-    font-size: 4vw;
+    font-size: 3.5vw;
     vertical-align: center;
     text-align: center;
 }
